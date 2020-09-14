@@ -1,0 +1,12 @@
+{% extends 'hello/layout.html' %}
+
+{% block body %}
+
+<h1>Yellows</h1>
+<ul>
+    {% for yellow in yellows %}
+        <li>{{ yellow }}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
